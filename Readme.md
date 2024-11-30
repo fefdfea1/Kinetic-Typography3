@@ -2,6 +2,8 @@
 
 이번 타이포 그래피는 이전과 같이 https://www.youtube.com/watch?v=TzNQs85fL1w&t=219s 김종민님의 해외 취업 포트폴리오를 보고 영감을 받아 일러스트레이터를 이용해 하나하나 알파벳을 만들고 선을 그려 path를 설정하여 만들어본 타이포 애니메이션입니다. 처음으로 이런 텍스트 애니메이션을 직접 구현 해보는 작업이라 코드상으로도 많이 미숙하지만 추후에 더 좋은 코드로 리뉴얼 해보고 싶습니다.
 
+![-Clipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9080f251-04f8-41a8-a720-0d60553c4dac)
+
 ### 사용법
 
 사용법 자체는 이번에 제작하는 포트폴리오에도 적용해볼까 싶어 최대한 간단하게 사용해볼 수 있도록 제작하였습니다.
@@ -27,5 +29,3 @@ const minusAnimationTime = 200; // 알파벳 하나의 애니메이션 시간에
 minusAnimationTime이 조금 의아해질 수 있는데 이 변수는 알파벳 하나의 애니메이션 시간에서 줄어드는 시간입니다. 즉 알파벳 하나의 애니메이션 시간이 13초라면 13초에서 2초간 줄어드는 시간을 의미합니다.
 
 이 값을 계산에 추가한 이유는 애니메이션 시간이 너무 길어서 줄어드는 시간을 추가하여 더 자연스러운 애니메이션을 만들기 위함입니다.
-
-![-Clipchamp1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/9080f251-04f8-41a8-a720-0d60553c4dac)
