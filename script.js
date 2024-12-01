@@ -8,8 +8,5 @@ window.onload = () => {
   );
   svgContainer.classList.add("svgContainer");
   document.body.appendChild(svgContainer);
-  controller.inputText(
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-    svgContainer
-  );
+  controller.inputText("1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ", svgContainer);
 };
